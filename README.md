@@ -4,7 +4,11 @@ reflect express routes
 ### Usage
 ```javascript
 var reflector = require('express-reflector');
-var endPoints = reflector(expressApp);
+...
+app.use('/api', function(req, res) {
+  var routes = reflector(req.app);
+  res.json(routes);
+});
 ```
 
 ##### Example output
