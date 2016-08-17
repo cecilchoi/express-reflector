@@ -1,0 +1,23 @@
+{
+  "name": "express-reflector",
+  "version": "0.0.1",
+  "description": "reflect express routes",
+  "author": "Cecil Choi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "reflection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cecilchoi/express-reflector.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  }
+}
